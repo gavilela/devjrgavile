@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+	<meta charset="UTF-8">
+	<html>
+	<head>
+	<h1>CALCULADORA</h1>
+		
+		<link rel="stylesheet" type="text/css" href="stylecal.css">
+	</head>
+	<body>
+		<form name="calculatora">
+		<p><input type="textfield" name="ans" value=""></p>
+		<p><input type=button value="7" onClick="document.calculatora.ans.value+='7'"> <input type=button value="8" onClick="document.calculatora.ans.value+='8'"> <input type=button value="9" onClick="document.calculatora.ans.value+='9'"> <input type=button value="+" onClick="document.calculatora.ans.value+='+'"></p>
+		<p><input type=button value="4" onClick="document.calculatora.ans.value+='4'"> <input type=button value="5" onClick="document.calculatora.ans.value+='5'"> <input type=button value="6" onClick="document.calculatora.ans.value+='6'"> <input type=button value="-" onClick="document.calculatora.ans.value+='-'"></p>
+		<p><input type=button value="1" onClick="document.calculatora.ans.value+='1'"> <input type=button value="2" onClick="document.calculatora.ans.value+='2'"> <input type=button value="3" onClick="document.calculatora.ans.value+='3'"> <input type=button value="*" onClick="document.calculatora.ans.value+='*'"></p>
+		<p><input type=button value="0" onClick="document.calculatora.ans.value+='0'"> <input type=button value="," onClick="document.calculatora.ans.value+=','"> <input type=button value="." onClick="document.calculatora.ans.value+='.'"> <input type=button value="/" onClick="document.calculatora.ans.value+='/'"></p>
+		<p><input type="reset" value="Reset"> <input type="button" value="=" onClick="document.calculatora.ans.value=eval(document.calculatora.ans.value)"></p>
+		</form>
+
+
+	</body>
+	</html>
